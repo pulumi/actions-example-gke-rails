@@ -1,4 +1,4 @@
-# Ruby on Rails App, Deployed with GitHub Actions and Pulumi ⚡️
+# Ruby on Rails App with GitHub Actions and Pulumi ⚡️
 
 A simple Ruby on Rails App, deployed to Kubernetes using GitHub Actions and Pulumi! ☁️
 
