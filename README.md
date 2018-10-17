@@ -23,7 +23,7 @@ To use this, simply perform these steps:
 
 1. Fork this repo.
 2. Register for Pulumi, and download the CLI.
-3. Run `pulumi stack init` to create a new stack which we'll deploy into.
+3. Run `pulumi stack init` to create a new stack which we'll deploy into, and then [configure it](https://pulumi.io/quickstart/gcp/setup.html)
 4. Configure your `PULUMI_ACCESS_TOKEN` and `GOOGLE_CREDENTIALS`, per [the instructions over on pulumi.io](https://pulumi.io/github).
 
 Commit or open a PR, and watch GitHub Actions plus Pulumi work its magic! ✨
