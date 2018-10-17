@@ -21,7 +21,7 @@ This architecture includes the following major components
 
 To use this, simply perform these steps:
 
-1. Fork this repo.
+1. Make a copy of this repo (while GitHub Actions are in private beta, [it must be private](https://gist.github.com/jacquesd/85097472043b697ab57ba1b1c7530274).
 2. Register for Pulumi, and download the CLI.
 3. Run `pulumi stack init` to create a new stack which we'll deploy into, and then [configure it](https://pulumi.io/quickstart/gcp/setup.html)
 4. Configure your `PULUMI_ACCESS_TOKEN` and `GOOGLE_CREDENTIALS`, per [the instructions over on pulumi.io](https://pulumi.io/github).
