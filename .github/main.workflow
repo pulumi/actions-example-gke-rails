@@ -8,6 +8,7 @@ action "Pulumi Deploy (Current Stack)" {
     args = [ "up" ]
     env = {
         "PULUMI_CI" = "up"
+        "PULUMI_ROOT" = "infra"
     }
     secrets = [
         "PULUMI_ACCESS_TOKEN"
@@ -24,6 +25,7 @@ action "Pulumi Preview (Merged Stack)" {
     args = [ "preview" ]
     env = {
         "PULUMI_CI" = "pr"
+        "PULUMI_ROOT" = "infra"
     }
     secrets = [
         "PULUMI_ACCESS_TOKEN"
